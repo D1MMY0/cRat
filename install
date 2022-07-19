@@ -1,0 +1,50 @@
+#bin/bash/
+internet(){
+wget -q --tries=10 --timeout=20 --spider http://google.com
+if [[ $? -eq 0 ]]; then
+        echo -e "\e[42m INTERNET IS ONLINE 🙃\e[0m"
+insta
+else
+clear;        echo -e "\e[41m INTERNET IS OFFLINE 🥺\e[0m"
+exit
+fi
+}
+insta(){
+pkg install unzip
+unzip Core.zip
+pkg install python
+pkg i lolcat && pip install lolcat
+sleep 1
+clear
+pkg install java
+sleep 1
+clear
+pkg install apkmod
+sleep 1;clear
+pkg install apktool
+sleep 1;clear
+pkg install npm
+sleep 1;clear
+apt instaall npm
+sleep 1;clear
+pkg install nodejs
+sleep 1;clear
+apt install nodejs
+sleep 1
+clear
+pkg update && pkg upgrade
+npm install
+sleep 1
+clear
+bash $HOME/cRat/Core/setup.sh
+clear
+sleep 1
+cp cRat /data/data/com.termux/files/usr/bin
+clear
+sleep 1
+echo -e "\e[31m JOB DONE 🙃 OPEN NEW SESSION AND TYPE \e[42m cRat\e[0m"
+echo;echo;
+bash start.sh 
+}
+internet
+
