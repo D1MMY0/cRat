@@ -11,10 +11,10 @@
 <p align="center">
 </p>
 <p align="center">
-<a href="https://github.com/noob-hackers"><img title="Followers" src="https://img.shields.io/github/followers/noob-hackers?color=blue&style=flat-square"></a>
-<a href="https://github.com/noob-hackers"><img title="Stars" src="https://img.shields.io/github/stars/noob-hackers/infect?color=red&style=flat-square"></a>
-<a href="https://github.com/noob-hackers"><img title="Forks" src="https://img.shields.io/github/forks/noob-hackers/infect?color=red&style=flat-square"></a>
-<a href="https://github.com/noob-hackers"><img title="Watching" src="https://img.shields.io/github/watchers/noob-hackers/infect?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/nD1MMY0"><img title="Followers" src="https://img.shields.io/github/followers/noob-hackers?color=blue&style=flat-square"></a>
+<a href="https://github.com/D1MMY0"><img title="Stars" src="https://img.shields.io/github/stars/noob-hackers/infect?color=red&style=flat-square"></a>
+<a href="https://github.com/D1MMY0"><img title="Forks" src="https://img.shields.io/github/forks/noob-hackers/infect?color=red&style=flat-square"></a>
+<a href="https://github.com/D1MMY0"><img title="Watching" src="https://img.shields.io/github/watchers/noob-hackers/infect?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/D1MMY0"><img title="Licence" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
 </p>
 
@@ -65,10 +65,10 @@ Warning 🚦 This Virus Formates (Deletes) Full Internal Storage So think and Us
 
 <br>
 <p align="center">
-<img width="40%" src="https://github.com/D1MMY0/adi/blob/main/ramm/1.jpg"/>
-<img width="40%" src="https://github.com/D1MMY0/adi/blob/main/ramm/2.jpg"/>
-<img width="40%" src="https://github.com/D1MMY0/adi/blob/main/ramm/3.jpg"/>
-<img width="40%" src="https://github.com/D1MMY0/adi/blob/main/ramm/4.jpg"/>
+<img width="45%" src="https://github.com/D1MMY0/adi/blob/main/ramm/1.jpg"/>
+<img width="45%" src="https://github.com/D1MMY0/adi/blob/main/ramm/2.jpg"/>
+<img width="45%" src="https://github.com/D1MMY0/adi/blob/main/ramm/3.jpg"/>
+<img width="45%" src="https://github.com/D1MMY0/adi/blob/main/ramm/4.jpg"/>
 </p>
 
 ## WATCH VIDEO [Termux]
@@ -79,7 +79,7 @@ Warning 🚦 This Virus Formates (Deletes) Full Internal Storage So think and Us
 
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](#)
 [![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://itzdimmy.great-site.net/)
-[![Instagram](https://img.shields.io/badge/FACEBOOK-LIKE-red?style=for-the-badge&logo=facebook)](https://rebrand.ly/fsbpage)
+[![Instagram](https://img.shields.io/badge/FACEBOOK-LIKE-red?style=for-the-badge&logo=facebook)](#)
 [![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/developer_dimmi)
 
 ## BYEE :
