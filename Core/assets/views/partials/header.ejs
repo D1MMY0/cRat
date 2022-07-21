@@ -1,0 +1,50 @@
+<br>
+<audio id="audio" src="#" hidden autoplay></audio>
+<script>
+const playAudio = () =>{
+var audio = document.querySelector("#audio");
+if (audio.paused) {
+audio.play();
+}
+}
+</script>
+    <script>
+var myVar=setInterval(function(){myTimer()},1000);
+function myTimer() {
+    var d = new Date();
+    document.getElementById("horas").innerHTML = d.toLocaleTimeString();
+}
+</script>
+<style>
+.badge-primary {
+ align:center;
+  color: #fff;
+ border-radius:5px;
+ border:2px solid white;
+  background-color: #1976d2; }
+  .badge-primary[href]:focus, .badge-primary[href]:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #145ca4; }
+</style>
+<i class="white icon coffee" style="color:white;text-shadow:0px 0px 4px black;"></i><span id="horas" class="badge badge-primary">DIMMY</span>
+<div class="ui inverted menu" style="border:solid red 2px;border-radius:30px;">
+    <div class="header item"><img src="https://www.linkpicture.com/q/logo_574.png" style="width: 200px"></div>
+    <a href="/" class="item">
+        <i class="green icon mobile alternate"></i>&nbsp;&nbsp; Devicesz 
+    </a>
+ <a href="/logs" class="item">
+       <i class="green icon terminal"></i>&nbsp;&nbsp; Event Log !!
+    </a>
+<a href="/builder" class="item">
+        <i class="green icon wrench"></i>&nbsp;&nbsp; APK Builder
+    </a>
+    <div class="right menu">
+        <a href="/logout" class="ui item">
+            <i class="green icon lock"></i>&nbsp; Logout
+        </a>
+    </div>
+</div>
+<div class="ui divider"></div>
+<br>
+
