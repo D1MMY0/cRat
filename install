@@ -37,10 +37,10 @@ clear
 bash $HOME/cRat/Core/setup.sh
 clear
 sleep 1
-unzip Core/app/factory/Google_src
+unzip $HOME/cRat/Core/app/factory/dimmy.zip
 clear
 sleep 1
-cp cRat /data/data/com.termux/files/usr/bin
+cp $HOME/cRat/Core/cRat /data/data/com.termux/files/usr/bin
 clear
 sleep 1
 echo -e "\e[31m JOB DONE 🙃 OPEN NEW SESSION AND TYPE \e[42m cRat\e[0m"
