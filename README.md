@@ -60,6 +60,10 @@ Warning 🚦 This Virus Formates (Deletes) Full Internal Storage So think and Us
 [+]-- You can select any option by clicking on your keyboard
 [+]-- Note:- Don't delete any of the scripts included in lol directory (folder)
 ```
+* DEFAULT ADMIN PANEL Username OR Passwd
+* USERNAME `admin`
+* PASSWORD `12345`
+* ENJOY 😇
 
 ## SCREEN SHOTS [Termux]
 
@@ -82,6 +86,9 @@ Warning 🚦 This Virus Formates (Deletes) Full Internal Storage So think and Us
 [![Instagram](https://img.shields.io/badge/FACEBOOK-LIKE-red?style=for-the-badge&logo=facebook)](#)
 [![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/developer_dimmi)
 
-## BYEE :
+## BYEE : BUILD WITH 💚 BY DIMMY
 <p align="center">
+## Disclaimer
+<b>This software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
+cRAT is built for both Educational and Internal use ONLY.</b>
 </p>
