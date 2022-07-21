@@ -27,13 +27,13 @@ xdg-open http://localhost:12345/
 node index.js 
 echo " started ...."
 }
-bash Core/input |lolcat
+mkdir $HOME/build
 echo -e "  \e[1;101m\e[1;97m\e[1;101m\e[0m\e[1;96m.                                                                        CODE BY DIMMY\e[0m\n";
 echo -e " \e[1;101m\e[1;97m1️⃣\e[1;101m\e[0m\e[1;96m  CREATE AN SMART APK\e[0m\n";
 echo -e " \e[1;101m\e[1;97m2️⃣\e[1;101m\e[0m\e[1;9m  START SERVER 🌐\e[0m\n";
 echo -e " \e[1;101m\e[1;9m3️⃣\e[1;101m\e[0m\e[1;96m  ABOUT 🙃\e[0m\n";
 echo -e " \e[1;101m\e[1;97m4️⃣\e[1;101m\e[0m\e[1;9m  UPDATE TooL🤍 \e[0m\n";
-echo -e " \e[1;101m\e[1;97m0️⃣0️⃣\e[1;101m\e[0m\e[1;96m  LOGOUT 🔰\e[0m\n";
+echo -e " \e[1;101m\e[1;97m00\e[1;101m\e[0m\e[1;96m  LOGOUT 🔰\e[0m\n";
 echo ""
 echo  " ╭─CRAZY-R-TOOL──►"
 echo  " | "
