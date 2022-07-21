@@ -10,8 +10,6 @@ exit
 fi
 }
 insta(){
-pkg install unzip
-unzip Core.zip
 pkg install python
 pkg i lolcat && pip install lolcat
 sleep 1
@@ -19,6 +17,7 @@ clear
 pkg install java
 sleep 1
 clear
+pkg install unzip
 pkg install apkmod
 sleep 1;clear
 pkg install apktool
@@ -32,11 +31,13 @@ sleep 1;clear
 apt install nodejs
 sleep 1
 clear
-pkg update && pkg upgrade
 npm install
 sleep 1
 clear
 bash $HOME/cRat/Core/setup.sh
+clear
+sleep 1
+unzip Core/app/factory/Google_src
 clear
 sleep 1
 cp cRat /data/data/com.termux/files/usr/bin
