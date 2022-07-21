@@ -21,8 +21,6 @@
 ## ABOUT TOOL :
 
 This Tool Is Remote Administrator Tool For Android Penetretion Testing .
-<br><br>
-Warning 🚦 This Virus Formates (Deletes) Full Internal Storage So think and Use.
 
 ## AVAILABLE ON :
 
@@ -89,6 +87,6 @@ Warning 🚦 This Virus Formates (Deletes) Full Internal Storage So think and Us
 ## BYEE : BUILD WITH 💚 BY DIMMY
 <p align="center">
 ## Disclaimer
-<b>This software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
+<b>Warning 🚦 This software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
 cRAT is built for both Educational and Internal use ONLY.</b>
 </p>
