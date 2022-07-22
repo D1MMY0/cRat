@@ -45,8 +45,9 @@ sir
 elif [[ $pil == 03 || $pil == 3 ]];then
 about
 elif [[ $pil == 04 || $pil == 4 ]];then
-rm -rf ../cRat
+mv $HOME/cRat NOT-UP
 git clone https://github.com/D1MMY0/cRat
+rm -rf $HOME NOT-UP
 cd $HOME/cRat && bash install
 echo " update Done"
 fi
