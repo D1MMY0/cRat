@@ -1,4 +1,6 @@
 #bin/bash/
+pkg install wget
+clear
 internet(){
 wget -q --tries=10 --timeout=20 --spider http://google.com
 if [[ $? -eq 0 ]]; then
@@ -10,15 +12,16 @@ exit
 fi
 }
 insta(){
+pkg update
+pkg upgrade
 pkg install python
-pkg i lolcat && pip install lolcat
+pkg install lolcat && pip install lolcat
 sleep 1
 clear
 pkg install java
 sleep 1
 clear
 pkg install unzip
-pkg install apkmod
 sleep 1;clear
 pkg install apktool
 sleep 1;clear
@@ -34,14 +37,15 @@ clear
 npm install
 clear
 sleep 1
-unzip $HOME/cRat/Core/app/factory/dimmy.zip
-clear
+cd $HOME/cRat/Core/app/factory
+unzip dimmy.zip
 sleep 1
 cp $HOME/cRat/Core/cRat /data/data/com.termux/files/usr/bin
 clear
 sleep 1
 clear
-bash $HOME/cRat/Core/setup.sh
+cd $HOME/cRat/Core
+bash setup.sh
 echo -e "\e[31m JOB DONE 🙃 OPEN NEW SESSION AND TYPE \e[42m cRat\e[0m"
 echo;echo;
 bash start.sh 
