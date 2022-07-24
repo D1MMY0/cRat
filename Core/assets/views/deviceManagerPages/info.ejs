@@ -1,0 +1,39 @@
+<div class="ui segment">
+    <div class="ui statistics four">
+        <div class="statistic"></div>
+        <div class="statistic">
+            <div class="text value"><b>
+        <div id="horas"></div> 
+<p id="displayDateTime"></p>
+           <div class="label">
+                First Seen
+</div><br>
+        </div>
+        <div class="statistic">
+            <div class="text value">
+                12:34<br>
+                12/02/2022
+            </div>
+            <div class="label">
+                Last Seen
+            </div>
+        </div>
+        <div class="statistic"></div>
+    </div>
+<body>
+<script type="text/javascript">
+var myVar=setInterval(function(){myTimer()},1000);
+function myTimer() {
+    var d = new Date();
+    document.getElementById("horas").innerHTML = d.toLocaleTimeString();
+}
+ var today = new Date();
+  var day = today.getDay();
+  var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+  var date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
+  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  var dateTime = date;
+  document.getElementById("displayDateTime").innerHTML = dateTime + ' <br> Day :- ' + daylist[day];
+  </script>
+</body>
+</div>
